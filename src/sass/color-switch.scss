@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  margin-top: 20px;
+  background: #e4f5ea;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 40px 0 40px;
+  margin: 0 20px;
+  background: linear-gradient(-135deg, #00e5fe, #4463fe);
+  box-shadow: 0 15px 65px #4753ff;
+  border-width: 0;
+  border-radius: 50px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 14px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover:before {
+  background: white;
+  color: #24d8f7;
+}
+
+.link {
+  padding: 10px 40px 10px 40px;	
+  text-decoration: none;
+}
